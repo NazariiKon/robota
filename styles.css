@@ -59,3 +59,23 @@ body {
 .btn:hover {
   background-color: #14a20a;
 }
+
+#header{ 
+  background-color:yellow;
+}
+#sidebar{
+  background-color: blue;
+  float: left;
+  width: 150px;
+  height: 75vh;
+  margin-top: 0;
+}
+
+
+#content{
+  background-color: red;
+}
+#content{
+background-color: red  ;
+margin-left: 180px;
+}
