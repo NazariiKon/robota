@@ -1,5 +1,5 @@
 
-        .header a {
+        a {
             color: black;
             padding: 12px;
             text-decoration: none;
@@ -7,11 +7,11 @@
             line-height: 25px;
             border-radius: 4px;
           }
-          .header a:hover {
+          a:hover {
             background-color: #ddd;
             color: black;
           }
-          .header a.active {
-            background-color: rgb(30, 255, 75);
+          a.active {
+            background-color: rgb(150, 20, 220);
             color: white;
           }
