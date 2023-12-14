@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Коментарій</title>
+    <title>Лаб 15</title>
   </head>
 
   <body>
     <form>
-        <label for="name">Назар Конечний Олександрович</label><br>
+        <label for="name">Назар Конечний Олександрович HTML</label><br>
+        <script language="JavaScript">
+          document.write("Назар Конечний Олександрович JavaScript")
+        </script>
+        <br>
+        <form>
+          <input type="button" value="Дата народження та місце" onClick="alert('27.03.2005 Рівне')">
+        </form>
+
         x = <input name="x" type="number"><br>
         y = <input name="y" type="number"><br>
-        z = <input name="z" type="number"><br>
-        13. F = x^y+y^z+z^x
+        <!-- z = <input name="z" type="number"><br> -->
+        13. F = 1-x*y+x/y
         <input type="button" value="Calculate" onClick="calculation()">
     </form>
 
-    <body onLoad="clock()">
-        <form name="clock">
+    <body onLoad="date(), clock()">
+        <form name="date">
         Дата:
         <input type="text" name="date" size="8" value="">
         </form>
-  </body>
+
+        <form name="clock">
+          Час:
+          <input type="text" name="clock" size="8" value="">
+          </form>
+     </body>
 </html>
 
 <script src="script.js"></script>
